@@ -1,7 +1,95 @@
+/*Reset Css*/
 @import url("https://fonts.googleapis.com/css2?family=Lato&family=Open+Sans&display=swap");
-h1 {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
   font-family: "Lato", sans-serif;
-  background-color: #954563;
+  text-align: center;
+}
+
+nav {
+  background-color: #1d1e22;
+  width: 100%;
+  height: 80px;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 8px 3px;
+}
+
+h1 {
+  color: #fafafa;
+  padding-top: 15px;
+  font-size: 2.5em;
+}
+
+form {
+  padding-top: 4%;
+  width: 300px;
+  margin: 0 auto;
+}
+
+fieldset {
+  display: inline-block;
+  background: #fafafa;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 10px 6px -6px #1d1e22;
+  padding: 0 0 0 40px;
+}
+
+input, button {
+  position: relative;
+  float: left;
+  width: 200px;
+  height: 50px;
+  padding: 0;
+}
+
+input {
+  font-size: 1.1em;
+  background: #fafafa;
+  color: #666;
+  border: none;
+  z-index: 2;
+}
+
+button {
+  font-size: 1.4em;
+  width: 50px;
+  border: none;
+  border-radius: 5px;
+  background: #1d1e22;
+  transform: translate(-50px, 0);
+  transition-duration: 0.3s;
+}
+
+.fa-search {
+  color: green;
+  transform: translate(-190px, 0);
+  transition: all 0.1s ease-in-out;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus + button {
+  transform: translate(0, 0);
+  transition-duration: 0.3s;
+}
+
+input:focus + button .fa-search {
+  transform: translate(0, 0);
+  transition-duration: 0.4s;
+}
+
+body {
+  background-image: url(./image/background.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */

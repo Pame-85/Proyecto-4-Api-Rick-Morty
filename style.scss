@@ -1,9 +1,14 @@
+
+@import "./componentes/reset";
 @import "./componentes/_variables.scss";
+@import "./componentes/header";
+@import "./componentes/nav";
 
 
-h1 {
-    font-family :$fontPrincipal;
-    background-color:$colorPrimary;
+body{
+    background-image:url(./image/background.jpg);
+    background-repeat:no-repeat;
+    width:100%;
+    height:100%;
 }
-
     
