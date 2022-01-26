@@ -1,0 +1,23 @@
+@media(min-width:570px){
+    .prev-left{
+        margin-left:150px;
+        
+    }
+    .card{
+        text-align: center;
+        margin-left:150px ;
+        
+    }
+}
+
+@media(min-width:1300px){
+    .card{
+        
+        margin-left:5.4rem;
+    
+    }
+
+    .prev-left{
+        margin-left:39rem ;
+    }
+}

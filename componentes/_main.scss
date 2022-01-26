@@ -28,7 +28,9 @@
     color:$colorSecondary;
  }
  
-
+.card:hover {
+   transform: scale(1.14);
+}
  .img{
      width:239px;
      max-height:100%;

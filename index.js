@@ -6,6 +6,12 @@ const containerCards=document.querySelector(".cards")
 const btnPrev=document.querySelector("#prev-button")
 const btnNext=document.querySelector("#next-button")
 
+//Modal Detalle
+const btnCloseModal=document.querySelector(".close-button")
+const modalDetallePcipal=document.querySelector("#modal-detalle")
+const containerModal=document.querySelector(".card-modal-detalle")
+
+
 //Pagina Principal
 
 let paginaPrincipal=1
@@ -98,4 +104,6 @@ btnNext.onclick = () => {
     buscarPersonaje()
   } 
   
+  //Detalles Modal
+
   
