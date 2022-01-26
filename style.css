@@ -217,14 +217,19 @@ p {
   padding: 5px;
 }
 
-@media (min-width: 570px) {
+@media (min-width: 570px) and (max-width: 800px) {
   .prev-left {
-    margin-left: 150px;
+    margin-left: 280px;
   }
 
   .card {
     text-align: center;
-    margin-left: 150px;
+    margin-left: 280px;
+  }
+
+  fieldset {
+    justify-content: center;
+    align-items: center;
   }
 }
 @media (min-width: 1300px) {
