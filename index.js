@@ -2,28 +2,30 @@
 const busquedaPersonaje=document.querySelector(".personaje-button")
 const busquedaForm=document.querySelector("#form-busqueda")
 const containerCards=document.querySelector(".cards")
+//Paginacion
+const btnPrev=document.querySelector("#prev-button")
+const btnNext=document.querySelector("#next-button")
 
 //Pagina Principal
 
 let paginaPrincipal=1
+let ultimaPagina=0
+
+
 const buscarPersonaje = () => {
+    console.log(paginaPrincipal)
     fetch(`https://rickandmortyapi.com/api/character?page=${paginaPrincipal}`)
         .then((res) => {
             return res.json()
         })
         .then((data) => {
+            ultimaPagina=(data.info.pages)
             hacerHtmlCards(data.results)
-
             personajePrincipal()
 
         })
 }
 buscarPersonaje()
-//Button
-
-busquedaPersonaje.onclick=()=>{
-    buscarPersonaje(paginaPrincipal)
-}
 
 
 const hacerHtmlCards = (data) => {
@@ -78,4 +80,22 @@ const cardPrincipal = (character) => {
 
 
 }
+//Paginacion
 
+btnNext.onclick = () => {
+    paginaPrincipal++
+    if(paginaPrincipal===ultimaPagina){
+        btnNext.disabled=true
+    }
+    buscarPersonaje()
+  }
+  
+  btnPrev.onclick = () => {
+    paginaPrincipal--
+    if(paginaPrincipal===1){
+        btnPrev.disabled=true
+    }
+    buscarPersonaje()
+  } 
+  
+  

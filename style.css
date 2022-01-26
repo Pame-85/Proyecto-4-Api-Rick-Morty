@@ -118,6 +118,46 @@ input:focus + button .fa-search {
   padding-top: 10px;
 }
 
+.prev-left {
+  color: #46e515;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 60px;
+  height: 40px;
+  margin-left: 39rem;
+  margin-bottom: 20px;
+  padding: 0.5rem;
+  border: 2px solid #46e515;
+  border-radius: 0.5rem;
+}
+
+.prev-left:hover {
+  background: #46e515;
+  color: #fafafa;
+}
+
+.next-right {
+  color: #46e515;
+  font-family: "Open Sans", sans-serif;
+  font-size: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  width: 60px;
+  height: 40px;
+  margin-left: 15rem;
+  margin-bottom: 20px;
+  padding: 0.5rem;
+  border: 2px solid #46e515;
+  border-radius: 0.5rem;
+}
+
+.next-right:hover {
+  background: #46e515;
+  color: #fafafa;
+}
+
 footer {
   background: #1d1e22;
   width: 100%;
