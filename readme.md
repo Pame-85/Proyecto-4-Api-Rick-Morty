@@ -16,6 +16,6 @@
 - #### Posicionarse en la carpeta del proyecto y abrirlo con un IDE.
 - #### Npm install.
 *****
-![imagen](/image/gral.rick.morty.png)
+![imagen](/image/gral.rick.png)
 ![imagen](/image/search.morty.png)
 
