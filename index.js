@@ -67,7 +67,7 @@ const buscarPersonajeFiltrado = (name) => {
         })
         .then((data) => {
             cardPrincipal(data.results)
-            personajePrincipal()
+            //personajePrincipal()
 
 
         })
