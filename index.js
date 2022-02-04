@@ -27,7 +27,7 @@ const buscarPersonaje = () => {
         .then((data) => {
             ultimaPagina=(data.info.pages)
             hacerHtmlCards(data.results)
-            personajePrincipal()
+            //personajePrincipal()
 
         })
 }
