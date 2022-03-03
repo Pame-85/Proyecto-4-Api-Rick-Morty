@@ -14,6 +14,7 @@ body{
     background-color:#2cbed2;
     width:100%;
     height:100vh;
+    // no siento que display grid haga mucho aca
     display:grid;
     min-height:100vh;
     grid-template-rows:auto 1fr auto;

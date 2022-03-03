@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rick&Morty-Api</title>
     <!-- FAVICON -->
+        <!-- debe estar en la carpeta principal, no en img, llamarse favicon.ico, y el link asi:
+    <link rel="icon" type="image/ico" href="favicon.ico"> -->
     <link
       rel="shortcut icon"
       href="./image/Ricky Favicon.png"
@@ -30,8 +32,10 @@
         <!--Busqueda-->
         <form id="form-busqueda">
           <fieldset>
+            <!-- Si no hay label, debe haber aria-label, por accesibilidad -->
             <input type="search" placeholder="Rick..." id="input-busqueda" />
             <button class="personaje-button" type="submit">
+              <!-- Si el boton no tiene texto debe tener un aria label, por accesibilidad -->
               <i class="fas fa-search"></i>
             </button>
           </fieldset>
@@ -49,6 +53,7 @@
       </section>
       <!--Paginacion-->
       <div id="pagination">
+        <!-- deja un espacio entre un atributo y el siguiente -->
         <button id="prev-button"class="prev-left">PREV</button>
         <button id="next-button"class="next-right">NEXT</button>
       </div>
