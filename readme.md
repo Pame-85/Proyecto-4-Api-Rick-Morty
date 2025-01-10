@@ -13,15 +13,15 @@ Puedes ver el proyecto en vivo aquí: [Github Pages](https://pame-85.github.io/P
 
 Sigue estos pasos en tu terminal para clonar el repositorio:
 
-1. Accede al [Repositorio](git@github.com:Pame-85/Proyecto-4-Api-Rick-Morty.git).
-2. Haz un **Fork** del repositorio.
-3. Dirígete a la sección **Code** y copia la URL del repositorio.
-4. Abre tu terminal (Bash).
-5. Ejecuta el siguiente comando:
+- Accede al [Repositorio](git@github.com:Pame-85/Proyecto-4-Api-Rick-Morty.git).
+- Haz un **Fork** del repositorio.
+- Dirígete a la sección **Code** y copia la URL del repositorio.
+- Abre tu terminal (Bash).
+- Ejecuta el siguiente comando:
    ```bash
    git clone <URL>
-6. Accede a la carpeta del proyecto y ábrelo con tu IDE preferido.
-7. Ejecuta npm install para instalar las dependencias necesarias.
+- Accede a la carpeta del proyecto y ábrelo con tu IDE preferido.
+- Ejecuta npm install para instalar las dependencias necesarias.
 
 ## Screenshots
 
